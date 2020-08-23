@@ -1,9 +1,12 @@
+import json
+from time import time
+
 import cv2
 import numpy as np
-from create import CreateAccount
-from time import time
 import selenium
-import json
+
+from create import CreateAccount
+
 
 def resize(img):
     height, width = (img.shape[0], img.shape[1])

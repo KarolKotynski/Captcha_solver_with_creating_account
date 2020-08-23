@@ -1,12 +1,14 @@
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-import chromedriver_binary
+import os
 import random
 import string
-from PIL import ImageGrab, Image
-from win32api import GetSystemMetrics
 import time
-import os
+
+import chromedriver_binary
+from PIL import Image, ImageGrab
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from win32api import GetSystemMetrics
+
 
 class CreateAccount:
 
